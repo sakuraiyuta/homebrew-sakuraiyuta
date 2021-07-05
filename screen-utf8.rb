@@ -49,6 +49,7 @@ class ScreenUtf8 < Formula
     # https://savannah.gnu.org/bugs/index.php?59465
     ENV.append "CFLAGS", "-Wno-implicit-function-declaration"
 
+    system "autoreconf --install"
     system "./autogen.sh"
     system "./configure", "--prefix=#{prefix}",
                           "--mandir=#{man}",
