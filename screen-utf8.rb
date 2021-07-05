@@ -1,4 +1,4 @@
-class Screen < Formula
+class ScreenUtf8 < Formula
   desc "Terminal multiplexer with VT100/ANSI terminal emulation"
   homepage "https://www.gnu.org/software/screen"
   license "GPL-3.0"
