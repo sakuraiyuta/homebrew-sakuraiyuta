@@ -16,8 +16,9 @@ class ScreenUtf8 < Formula
     end
 
     patch :p2 do
-      url "https://gist.githubusercontent.com/yujinakayama/4608863/raw/75669072f227b82777df25f99ffd9657bd113847/gistfile1.diff"
-      sha256 "9c53320cbe3a24c8fb5d77cf701c47918b3fabe8d6f339a00cfdb59e11af0ad5"
+      # url "https://gist.github.com/raw/626040/be6a04f0e64c56185ba5850415ac59dad4cd62a0/screen-utf8-nfd.patch"
+      url "https://gist.githubusercontent.com/rcmdnk/b0bf57d422c875fb70645556d7770091/raw/16c81629ab2f83ec9e99241a34f9e8b28b773c61/screen-utf8-nfd.patch"
+      sha256 "d0c03d35fadeb872891b5b387b219f865dd01bde777f29eed7f5f6f2313e1d45"
     end
 
     patch :p2 do
